@@ -1,0 +1,6 @@
+
+  893  ls ../../etc/ 1> Projects/LinuxMastery-CourseAssignments/file1.txt
+  894  ls ../../run/ 1> Projects/LinuxMastery-CourseAssignments/file2.txt
+
+  909  cat file1.txt file2.txt | tee unsorted.txt | sort -r > reversed.txt
+
