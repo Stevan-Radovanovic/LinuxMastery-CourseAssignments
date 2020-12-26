@@ -1,0 +1,15 @@
+ 1013  mkdir super_secret_stuff
+ 1014  cd super_secret_stuff/
+ 1015  ls top_secret.txt
+ 1016  touch top_secret.txt
+ 1017  nano top_secret.txt 
+ 1019  sudo apt install locate
+ 1020  sudo apt install mlocate
+ 1021  sudo updatedb
+ 1022  man locate
+ 1023  locate top_secret
+ 1024  locate top_secret 1> secret_place.txt
+ 1025  cat secret_place.txt 
+ 1059  sudo find / -maxdepth 4 -size 1M -type f -exec ls -lh {} + | sort -k 5h | tail -n 100 > sorted.txt
+ 1060  cat sorted.txt 
+ 1061  history | tail -n 70 > solution.txt
